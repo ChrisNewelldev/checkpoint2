@@ -28,13 +28,16 @@ const automaticUpgrades = {
 
 function buyshovel(){
 if (cash >= clickUpgrades.shovel.price , 
-  alert('bought'),
+  console.log('bought'),
   cash = cash - clickUpgrades.shovel.price)
 update()}
  
-//function buybigshovel(
-
-//)
+function buybigshovel(){
+  if (cash >= clickUpgrades.bigshovel.price , 
+    console.log('bought'),
+    cash = cash - clickUpgrades.bigshovel.price)
+  update()
+}
 
 //function buyemployee(
 
