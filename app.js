@@ -2,7 +2,7 @@ let cash = 0;
 
 const clickUpgrades = {
   shovel: {
-    price: 20,
+    price: 5,
     quantity: 0,
     multiplier: 1
   },
@@ -27,8 +27,10 @@ const automaticUpgrades = {
 }
 
 function buyshovel(){
-if (cash >= clickUpgrades.shovel.price){alert('bought')(cash-clickUpgrades.shovel.price)
-}
+if (cash >= clickUpgrades.shovel.price , 
+  alert('bought'),
+  cash = cash - clickUpgrades.shovel.price)
+update()}
 
 //function buybigshovel(
 
@@ -52,6 +54,7 @@ update()
 function update() {
 
   document.getElementById('cash').innerText = cash
-
+ // number of upgrades bought
+ // what the multiplier is
 }
 
