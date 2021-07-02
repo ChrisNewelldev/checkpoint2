@@ -31,7 +31,7 @@ if (cash >= clickUpgrades.shovel.price ,
   alert('bought'),
   cash = cash - clickUpgrades.shovel.price)
 update()}
-
+ 
 //function buybigshovel(
 
 //)
